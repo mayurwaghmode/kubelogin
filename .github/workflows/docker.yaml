@@ -12,7 +12,7 @@ on:
       - Makefile
   push:
     branches:
-      - master
+      - ppc64le-support
     paths:
       - .github/workflows/docker.yaml
       - pkg/**
